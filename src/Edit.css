@@ -1,0 +1,51 @@
+button{
+
+
+    width: 127px;
+    height: 35px;
+    color: #FFFFFF;
+    background-color: #164B60;
+    font-family: Inter , sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 155px;
+    margin-left:  850px; ;
+    padding: 26px, 10px, 26px;
+ 
+}
+
+form{
+
+    margin-top: 80px;
+  
+    
+}
+
+.input-info{
+   margin-top: 10px;
+}
+
+input{
+
+    width: 626px;
+    height: 61px;
+    margin-left: 327px;
+    border:none
+
+}
+
+h3{
+    
+    
+    margin-top: 50px;
+    margin-left: 350px;
+
+}
+
+i{
+    margin-right: 40%;
+    
+}

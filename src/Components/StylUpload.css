@@ -1,0 +1,56 @@
+
+.Container-img img{
+    width: 161px;
+    height: 161px;
+    margin-left: 530px;
+    border-radius: 50%;
+    margin-top: 20px;
+   position: absolute;
+
+}
+
+.Cirle{
+
+    width: 161px;
+    height: 161px;
+    margin-left: 530px;
+    margin-top: 20px;
+    position: absolute;
+    margin-bottom: 40px;
+    border: 1px solid #164B60;
+    border-radius: 50%;
+
+}
+
+i{
+    font-size: 50px;
+    margin-top: 55px;
+    margin-left: 55px;
+
+}
+
+.imgInput input{
+    
+    width: 100px;
+    height: 100px;
+    margin-left: 600px;
+    margin-top: 150px;
+    opacity: 0.01;
+ 
+    
+}
+
+.imgInput p{
+
+    font-size: 50px;
+    position: absolute;
+    margin-left: 650px;
+    margin-top: 120px;
+    
+  
+}
+
+h3{
+
+    width: 400px;
+}
