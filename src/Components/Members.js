@@ -2,22 +2,25 @@ import React from 'react'
 import  Button from "../Button"
 import './styleMember.css'
 import { useState } from 'react'
-import Edit from './edit'
-
+import {  useNavigate } from 'react-router-dom'
 
 
 const Members = () => {
 
   const [deleteId,setDeleteId] = useState(false)
+  const [showComponent, setShowComponent] = useState(false);
+
+  const navigate = useNavigate();
 
   const handleDelete = () => {
 
     if(localStorage.getItem("id") !== 0){
       setDeleteId(true);
     }
+
   }
   
-   
+  
 
   return (
      
@@ -41,7 +44,8 @@ const Members = () => {
             
             <div className='icons'>
             <i class="fa-regular fa-trash-can" onClick={handleDelete}></i>
-            <i class="fa-solid fa-pen"></i>
+            <i class="fa-solid fa-pen" onClick={() => navigate ('/Edit')}></i>
+           
             </div>
      </div>
       }
